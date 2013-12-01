@@ -1,0 +1,66 @@
+[Adblock Plus 2.0]
+! Version: 201312011420
+! Title: adp_tumuyan_list
+! tumuyan©personal adp list subscription
+! Expires: 1 days (update frequency)
+! Homepage: http://dhost.info/tumuyan/xml/adp_tumuyan_list
+
+
+!--media.site.fixe--!
+
+!bili
+bilibili.tv## div[id^="ads_"]
+
+!letv
+letvimg.com/*.jpg
+@@letvimg.com/cms/*.jpg
+/letv-gug/
+/letv-web/
+
+!douban.fm
+vt*douban.com/*/rda/
+
+!iqiyi
+/videos/other/*.f4v
+msg.video.qiyi.com/adpb.gif*pbtp=ad
+
+
+!--baidu.fix--!
+hi.baidu.com## footer ~ *
+tieba.baidu.com## body > a#j_dimension 
+baike.baidu.com## #doubtbox-tipbubble,#bkDynamic
+baidu.com##       #pop_animate
+tieba.baidu.com## #game_rank,.game_spread_thread
+
+!--18R.site.fixe--!
+kuaichuanmirror.com,wohuia.com###message_box,#top_bar,#recommend
+aixs.me###at4-thankyou ~ *
+javlibrary.com## iframe[src*="http://goo.gl"]
+17domn.com##font[color="red"]
+17domn.com*$image
+
+!maya
+##.maintable > div > a,.maintable > div > a *,.t_infoline,div[align="center"] table#table1 tbody ,table[bgcolor="#ff0000"] tbody 
+
+
+!-no-share-bar-!
+###at4-share,#bdshare
+
+!--new look--!
+guokr.com## #sideSlide > .focus-content
+## div[class*="beforelogin"]
+## .tooltip-new
+## div[class*="layer-loginSpread"]
+blog.sina.com.cn/s/blog_## iframe[src*="http://blog.sina.com.cn/lm/iframe/article/search"]
+blog.51cto.com###message iframe
+blog.51cto.com*images/guanggaobanner.jpg
+5ucom.com## .bottom ~ *,#LRdiv1,.minipage
+## div[class*="code-download-bar"]
+douban.com## .mobile-app-entrance,.mod-app-entrance,.fixed-fields #events
+
+
+
+
+
+!--others.--!
+games.tgbus.com## .line_2,iframe[src^="http://ol.tgbus.com/iframe/tu/index_down.html"],.Article-Tool
