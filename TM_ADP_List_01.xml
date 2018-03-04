@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 
-! Version: 201707194035
+! Version: 2011803031248
 
 ! Title: adp_tumuyan_list
 
@@ -8,7 +8,7 @@
 
 ! Expires: 1 days (update frequency)
 
-! Homepage: http://dhost.info/tumuyan/xml/adp_tumuyan_list
+! Homepage: https://raw.githubusercontent.com/tumuyan/TM_ADP_List/master/TM_ADP_List_01.xml
 
 
 
@@ -230,6 +230,7 @@ elecfans.com###log-tip
 
 dilidili.wang##body>article.popUp
 
+blog.csdn.net##.pulllog-box,.fixRight_box > .fixRight
 
 
 !--ad@head--!
