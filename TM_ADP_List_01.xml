@@ -1,66 +1,272 @@
 [Adblock Plus 2.0]
-! Version: 201312011420
+
+! Version: 201707194035
+
 ! Title: adp_tumuyan_list
-! tumuyan©personal adp list subscription
+
+! tumuyan ?personal adp list subscription
+
 ! Expires: 1 days (update frequency)
+
 ! Homepage: http://dhost.info/tumuyan/xml/adp_tumuyan_list
+
+
+
 
 
 !--media.site.fixe--!
 
+
+
 !bili
+
 bilibili.tv## div[id^="ads_"]
 
+
+
 !letv
+
 letvimg.com/*.jpg
+
 @@letvimg.com/cms/*.jpg
+
 /letv-gug/
+
 /letv-web/
 
+
+
 !douban.fm
-vt*douban.com/*/rda/
+
+douban.com*/rda/*.mp3
+
+
 
 !iqiyi
+
 /videos/other/*.f4v
+
 msg.video.qiyi.com/adpb.gif*pbtp=ad
 
 
+
+!test
+
+
+
+
+
+
+
 !--baidu.fix--!
+
 hi.baidu.com## footer ~ *
+
 tieba.baidu.com## body > a#j_dimension 
+
+tieba.baidu.com##.appPromote
+
 baike.baidu.com## #doubtbox-tipbubble,#bkDynamic
+
 baidu.com##       #pop_animate
+
 tieba.baidu.com## #game_rank,.game_spread_thread
 
+pan.baidu.com##.side-options > span.side-lalldownload
+
+
+
+tieba.baidu.com##.p_content_nameplate > .achievement_medal_section
+
+tieba.baidu.com##.d_post_content_main.d_post_content_firstfloor > .thread_recommend
+
+
+
+!-- baidu.mobile--!
+
+tieba.baidu.com## .xiang-guan-tie,.bottom-wonderful-recommend,a.j_click_stats,.j_click_stats,a.top_ext_li,span.login_ad_app_content , .j_pb_bottom ?, li#app-special ?ifra
+
+me,div[lgoinprompt="prompt"]
+
+
+
+
+
+
+
 !--18R.site.fixe--!
+
 kuaichuanmirror.com,wohuia.com###message_box,#top_bar,#recommend
+
 aixs.me###at4-thankyou ~ *
+
 javlibrary.com## iframe[src*="http://goo.gl"]
+
 17domn.com##font[color="red"]
+
 17domn.com*$image
 
+##th.r_one table  .tips
+
+xrba.net##div[style*="position:fixed"],div.textwidget,a[rel="nofollow"]
+
+
+
 !maya
+
 ##.maintable > div > a,.maintable > div > a *,.t_infoline,div[align="center"] table#table1 tbody ,table[bgcolor="#ff0000"] tbody 
 
 
+
+
+
 !-no-share-bar-!
+
 ###at4-share,#bdshare
 
+
+
 !--new look--!
+
 guokr.com## #sideSlide > .focus-content
+
 ## div[class*="beforelogin"]
+
 ## .tooltip-new
+
 ## div[class*="layer-loginSpread"]
+
 blog.sina.com.cn/s/blog_## iframe[src*="http://blog.sina.com.cn/lm/iframe/article/search"]
+
+blog.sina.com.cn##iframe[src^="http://blog.sina.com.cn/lm/iframe/article/searchqing.html"]
+
+blog.51cto.com##body > .blogpop
+
 blog.51cto.com###message iframe
+
+blog.51cto.com##.shareItem ,.relatedArt
+
 blog.51cto.com*images/guanggaobanner.jpg
+
 5ucom.com## .bottom ~ *,#LRdiv1,.minipage
+
 ## div[class*="code-download-bar"]
+
 douban.com## .mobile-app-entrance,.mod-app-entrance,.fixed-fields #events
 
+it168.com##div[class^="w98_"]
 
+blog.163.com##div[class="m-adv ztag"],.nbwinwrap,#lofter_single > iframe
+
+
+
+
+
+!--titlebox--!
+
+bbs.csdn.net##iframe[src*="/sda/"]
+
+blog.csdn.net## .main .tracking-ad
+
+anywlan.com###wp > .bscekvofc_o
+
+
+
+
+
+!--tao it--!
+
+taobao.com##.box > .mb_tabproshow,.box > .mb_codebuy,.box > .mb_favortophone
+
+taobao.com##.download-layer > #popUp-div
+
+2.taobao.com###guarantee,.xy-guide,#J_Message > img,.idle-footer,#J_SiteFooter,.mau-guide,.download-layer
 
 
 
 !--others.--!
+
 games.tgbus.com## .line_2,iframe[src^="http://ol.tgbus.com/iframe/tu/index_down.html"],.Article-Tool
+
+
+
+
+
+
+
+!--Right is not right--!
+
+cftea.com##.hm-t-container
+
+
+
+!--message box creaker--!
+
+pchome.net###winpop > div,.weixin
+
+cnblogs.com##body > #msgDiv
+
+
+
+!--No Login--!
+
+renren.com###reg-pop-window
+
+weibo.com##.W_layer
+
+static.youku.com/*/index/js/tdstat.js
+
+youku.com##.qwindow_mask,.qwindow
+
+mozilla.com.cn## body > #notify-container
+
+zol.com.cn###Bw_bLogin
+
+www.eepw.com.cn###coverDiv
+
+t.qq.com###cMsgFinal > .D
+
+elecfans.com###log-tip
+
+dilidili.wang##body>article.popUp
+
+
+
+!--ad@head--!
+
+bbs.saraba1st.com##.wp.a_h[style="line-height:90px;height:90px"]
+
+
+
+!--ad@last--!
+
+##.wangye-ad
+
+32666.com/templates*ad
+
+v.32666.com##.fms img,iframe[id^="iframe_url_ads"]
+
+bbs.51cto##body > .hfbox
+
+##div[id*="ADWrap"]
+
+guofs.com###content > .singleContent > a
+
+
+
+
+
+!--fix img max--!
+
+bbs*images/attachicons/*
+
+@@bbs*images/attachicons/*/*
+
+
+
+
+
+!--js popup--!
+
+*webThunderDetect*
+
