@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 
-! Version: 2011803031248
+! Version: 2011803251913
 
 ! Title: adp_tumuyan_list
 
@@ -40,7 +40,11 @@ letvimg.com/*.jpg
 
 douban.com*/rda/*.mp3
 
+!fengchedm
 
+fengchedm.com##a[style*="width: 300px; height: 250px; display: block;"],div[style="width: 970px;height: 90px;margin:0 auto;"],body > div.foot ~ div#cs_DIV_cscpvrich7960B,body > div#ad_left,body > div#ad_right,iframe[src*="/gg/"]
+http://vali.*.ott.cibntv.net/youku/*
+ 
 
 !iqiyi
 
